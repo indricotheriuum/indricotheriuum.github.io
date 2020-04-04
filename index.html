@@ -2,43 +2,122 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Project: Blog</title>
+        <title>Project: Event invite</title>
         <style>
-            h1 {color: white; background-color: black; text-align: center;}
-            body {background-color: rgb(29, 242, 90);}
-            h2 {color: white; background-color: black; text-align: center; font-family: sans-serif;}
-            h6 {color: red; font-style: italic;}
-            p {font-weight: bold; line-height: 2em;}
-            h5 {text-align: right; font-family: monospace; font-size: 15px;}
+
+        h1 {font-family: URW Chancery L, cursive;
+            text-align: center; font-size: 140px; color: rgb(242, 208, 12); text-shadow: 1px 1px 5px white;}
+        h4 {font-family: URW Chancery L, cursive; font-size: 60px;
+            text-align: center; color: rgb(240, 145, 12); text-shadow: 1px 1px 3px red;
+            position: relative; bottom: 60px;}
+        h3 {font-family: fantasy; text-shadow: 1px 1px 3px darkcyan; font-size: 35px; position: relative; left:17px;}
+
+        .zapro {background-color: black; width: 100%; border-top: 20px ridge orange; border-bottom: 20px ridge orange;}
+
+        #swieca1 {height: 150px; float: left; position: relative; top: 100px; left: 90px;}
+        #swieca2 {height: 150px; float: right; position: relative; top: 100px; right: 90px;}
+        #kot1 {float: left; margin-right: 6px; margin-bottom: 0,5px;}
+
+
+        .szczur_bio {width: 40%; border: 15px ridge black;
+            padding: 10px; margin: 20px; border-radius: 150px;
+	          -webkit-border-radius: 150px;
+	          -moz-border-radius: 150px; padding: 45px; float:left;}
+
+        #zapro_napis {padding:20px; font-size: 20px; color: black; position: relative; top:1px; font-family: fantasy; text-shadow: 1px 1px 3px blue;}
+        #lista {font-weight: bolder; font-family: sans-serif;font-size: 22px; text-align: center; line-height: 2em; position: relative; top: -20px; list-style-type: upper-roman;}
+
+        #atrakcje {background-color: silver; width: 80%; padding: 10px; padding-right: 40px;}
+        #dresscode {width: 80%}
+        #prezenty {background-color: silver; width: 80%; padding:20px;}
+        #lista-gosci {list-style-type: circle; font-size: 30px;}
+        #konkurs {font-size: 11px; font-family: sans-serif;}
 
         </style>
     </head>
     <body>
+        <div class="zapro">
+        <img id="swieca1" src="https://www.kasandbox.org/programming-images/seasonal/hannukah-menorah.png" alt="świeca">
+        <img id="swieca2" src="https://www.kasandbox.org/programming-images/seasonal/hannukah-menorah.png" alt="świeca">
+        <h1>ZAPRO</h1>
+        <h4>URODZINY SZCZUROSŁAWA</h4>
+        </div>
 
-        <h1>Amanda's blog</h1>
+        <div class="szczur_bio">
+        <img id="kot1" src="https://www.kasandbox.org/programming-images/animals/cat.png" alt="katze" width="200">
+        Szczurosław to mały grzyb, urodzony w czerwcu 2017 roku. Jego ulubionym zajęciem jest jedzenie mięsa. Na zdjęciu nie ma Szczurosława, jest to jedynie kot przykładowy - Szczurosław ceni sobie swoją prywatność. Nie każdy może podziwiać jego urodę. Warunkiem jest posiadanie mięsa. W wolnych chwilach Szczurosław nosi piłeczkę w pysku. Jego motto życiowe to <em>"Niaf".</em>
+        </div>
 
-        <h3 id="contents">Contents</h3>
+        <h4 id="zapro_napis">Serdecznie zapraszamy na imprezę roku, celebrujemy narodziny mesjasza naszych czasow!</h4>
+        <ol id="lista">
+          <li><a href="#atrakcje">ATRAKCJE</a></li>
+          <li><a href="#dresscode">DRESS CODE</a></li>
+          <li><a href="#prezenty">SUGEROWANE PREZENTY</a></li>
+          <li><a href="#lista-gosci">LISTA GOSCI</a></li><br><br>
+        </ol>
+
+        <center><div id="atrakcje"><h3>
+             ATRAKCJE
+        </h3>
         <ul>
-            <li><a href="#cats">Cats</a></li>
-            <li><a href="#music">Music</a></li>
+          <li><b>Głaskanie Szczurosława</b></li>
+          <p>Na wstępie spróbujmy odpowiedzieć sobie na pytanie o to, dlaczego koty w ogóle lubią głaskanie. Stwierdzenie, iż sprawia im to po prostu przyjemność jest nieco banalne, choć oczywiście prawdziwe. Szczurosław bowiem, podobnie jak my, posiadaja w skórze specjalne receptory czuciowe, a w mózgu odpowiednie ośrodki, których pobudzanie wyzwala przyjemne doznania.
+Nierzadko Szczurosław odwdzięcza się, liżąc go po rękach czy włosach – i wszystko wskazuje na to, że sprawia mu to przyjemność. Lizanie u kota to jakby odpowiednik naszego głaskania – zapewne właśnie z tym się ono Szczurosławowi kojarzy. On nie ma rąk, więc używa języka. I w każdym z tych przypadków służy to temu samemu celowi – zacieśnianiu więzi społecznych.
+Gdzie głaskać Szczurosława, by było to dla niego miłym doznaniem? Spróbuj dowiedzieć się czego pragnie Szczurosław metodą prób i błędów.</p><br>
+          <li><b>Karmienie Szczurosława</b></li>
+          <p>Owocem, który może być warunkowo spożywany przez Szczurosława, jest banan. To bogate źródło potasu i innych mikroelementów, ale zawiera jednocześnie dużo węglowodanów.
+Nieco lepszym pomysłem jest dynia – w postaci zmiksowanej lub ugotowanej i przetartej. Dodatek dyni zawierają niektóre puszki dla kotów, tzw. filetówki, które są znakomitą karmą uzupełniającą (dynia dobrze komponuje się z piersią z kurczaka). Niewielka (!) ilość dyni wpływa korzystnie na koci przewód pokarmowy, regulując trawienie.
+Zdecydowanie najzdrowszą przekąską dla Szczuroslawa jest mięso, choć czasem można pozwolić naszemu mięsożercy na maleńkie odstępstwo od jego drapieżczej natury.</p><br>
+          <li><b>Światowej sławy DJe</b></li>
+          <p>Na urodzinach Szczurosława radosną muzykę na oczyszczenie duszy zagrają: <br><b>DANNY L HARLE</b> z PC Music, który łączy ekstatyczne melodie z klubowymi rytmami oraz <b>TEKI LATEX</b>, eklektyczny DJ z Francji, ekspert w burzeniu granic między gatunkami. Otwiera <b>NAPHTA</b> z Wrocłwia, dźwięki przyszłości i przeszłości Afryki zagra <b>TASH LC</b>, a na sam koniec występ dobrego kolegi Szczurosława, <b>RRRKRTY</b> z Brutażu. Gwarantujemy, że opuścicie tę imprezę uśmiechnięci.</p><br>
+          <li><b>Darmowy alkohol</b></li>
+          <p>Lepiej obniżyć ceny alkoholu dla bezdomnych i uzależnionych niż dopuszczać, by pili niebezpieczne substytuty - uważają specjaliści od uzależnień z University of Victoria w Kolumbii Brytyjskiej. Dlatego tez Szczurosław w tym roku postanowił przeznaczyć przeszło 5000 zł na alkohol dla gości swoich tegorocznych urodzin! Do wyboru wódki, aperitify, szampany, doskonałej jakości wina oraz niezliczona ilość piwek.</p>
+        </ul></div></center>
+
+        <center><div id="dresscode"><h3>
+          DRESS CODE
+        </h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Hot_dog_sweater_1434172037.jpg" alt="sweter1" height="250">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/1940_Trachtenstrickjacke_anagoria.JPG" alt="sweter2" height="250">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Sweater_wiki.jpg" alt="sweter3" height="250">
+        <p>Szczurosław uwielbia ugniatać <b><em>sweterki</b></em>, dlatego na imprezie jest to element obowiązkowy. Długie, z golfem, rozpinane - najważniejsze, żeby były przyjemne w dotyku i bardzo ciepłe. Mile widziane <b>włókna zwierzęce</b>, czyli pozyskiwane ze zwierząt. W przypadku swetrów jest to wełna. Najpopularniejsza jest wełna owcza, ale na sklepowych półkach znajdziemy również tę pozyskiwaną z lam, czyli alpakę, z królików - angorę, z kóz - kaszmir czy moher.
+Dozowlone są również <b>włókna roślinne</b>, czyli pozyskiwane z roślin włóknistych. Do nich należy na przykład bawełna, która również jest częstym składnikiem naszych swetrów. Bawełna nie trzyma ciepła tak skutecznie jak wełna, dlatego swetry z niej wykonane nadają się bardziej na cieplejsze dni. Ponad to jej kolor dość szybko blaknie. Jednak jest dużo przyjemniejsza w dotyku od wełny owczej, przez co jest komfortowa w noszeniu. Kolejnym plusem jest to, że bawełna nie wymaga specjalnej pielęgnacji. Sweter z niej zrobiony wystarczy wyprać w pralce. <b>Absolutnie zabrania sie noszenia swetrów z włókien syntetycznych!</b> Najlepiej znanym nam włóknem syntetycznym jest akryl, który imituje wełnę. Jest jednak dużo tańszy, ale co za tym idzie, mniej wytrzymały i komfortowy w noszeniu. Swetry wykonane z akrylu mechacą się po praniu, przez co nie zachowują na długo swojej formy i koloru. Ponadto bardzo się elektryzują.</p><br>
+
+
+
+        </div></center>
+
+        <center><div id="prezenty"><h3>
+          SUGEROWANE PREZENTY
+        </h3>
+        <img id="gwiazdka" src="https://www.kasandbox.org/programming-images/space/star.png" alt="katze" width="100">
+        <img id="gwiazdka" src="https://www.kasandbox.org/programming-images/space/star.png" alt="katze" width="100">
+        <img id="gwiazdka" src="https://www.kasandbox.org/programming-images/space/star.png" alt="katze" width="100">
+        <p>Przede wszystkim MIĘSO!!!! <br>A oprócz tego: legowisko dla kota <a href="https://www.thecatball.com/" target="_blank">The Cat Ball</a> <br>lub plecione legowisko z <a href="https://lillypetshop.pl/pl/" target="_blank">Lilly Pet Shop</a>,<br> drapak z <a href="https://www.houseofcats.pl/" target="_blank">House Of Cats</a>, <br>poidełko-fontanna z <a href="https://www.bitiba.pl/shop/sklep_dla_kota/poidelka_miski/fontanny_dla_kota/poidelka/380733" target="_blank">Lucky Kitty</a>,
+        <br>  kocie feromony od <a href="https://www.bitiba.pl/esearch.htm#q=feliway" target="_blank">Feliway</a>,<br> trawa dla kota, kuweta <a href="https://www.sindesign.com/en/" target="_blank">Poopoopeedo</a>, <br>transportery oraz szelki. Dzięki!<br>
+          <img id="gwiazdka" src="https://www.kasandbox.org/programming-images/space/star.png" alt="katze" width="100">
+          <img id="gwiazdka" src="https://www.kasandbox.org/programming-images/space/star.png" alt="katze" width="100">
+          <img id="gwiazdka" src="https://www.kasandbox.org/programming-images/space/star.png" alt="katze" width="100">
+          <img id="gwiazdka" src="https://www.kasandbox.org/programming-images/space/star.png" alt="katze" width="100">
+          <img id="gwiazdka" src="https://www.kasandbox.org/programming-images/space/star.png" alt="katze" width="100">
+        </div><center>
+
+        <center><div id="lista-gosci"><h3>
+          LISTA GOŚCI
+        </h3>
+        <ul id=lista-gosci>
+          <li>Amanda</li>
+          <li>Wejder</li>
+          <li>Darek</li>
+          <li>Martwa</li>
+          <li>Fryderyk</li>
+          <li>Adrian</li>
+          <li>Gruby Miauxer</li>
         </ul>
-
-        <h2 id="cats">Cats</h2>
-        <h6>Posted on 13th march</h6>
-
-        <p>My cat ate my tuna sandwich.<br>My second cat pissed on my bed.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/TapetumLucidum.JPG" alt="first_cat" height="400">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Black_Cat_%287983739954%29.jpg" alt="second_cat" height="400">
-
-        <h2 id="music">Music</h2>
-        <h6>Posted on 14th march</h6>
-        <p>I went to my favorite band's concert.<br>It was awesome.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Manic_Street_Preachers_at_First_Direct_Arena%2C_Leeds_%282nd_May_2018%29_004.jpg" alt="concert_one" height="400">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Concert_of_Joler_Gan_Band%2C_Bangabndhu_International_Conference_Centre_%28BICC%29.jpg" alt="concert_two" height="400">
-
-        <h5><a href="#contents">Back to contents</a></h5>
+        <p id="konkurs">Jeżeli nie ma cię na tej liście, możesz wygrać jedną z czterech wejściówek biorąc udział w konkursie.<br>Warunkiem udziału w konkursie jest:
+zakup co najmniej jednego z produktów marki Purina oraz zachowanie dowodu dokonania zakupu w postaci paragonu fiskalnego (ten sam paragon może być zgłoszony w konkursie tylko raz)
+  <br>oraz zgłoszenie się przez uczestnika do konkursu telefonicznie pod numerem +48666999666.</p>
+        </div></center>
 
     </body>
 </html>
-
-
